@@ -3,6 +3,7 @@
 *.vocab
 *.npy
 *.wv
+*.pkl
 
 # misc
 .DS_Store
