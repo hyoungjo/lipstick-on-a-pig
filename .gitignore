@@ -4,6 +4,7 @@
 *.npy
 *.wv
 *.pkl
+*.bin
 
 # misc
 .DS_Store
