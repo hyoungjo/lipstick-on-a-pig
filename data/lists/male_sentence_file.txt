@@ -1,0 +1,80 @@
+This is a male
+That is a male
+There is a male
+Here is a male
+The male is here
+The male is there
+A male is a person
+These are males
+Those are males
+They are males
+The males are here
+The males are there
+Males are people
+This is a man
+That is a man
+There is a man
+Here is a man
+The man is here
+The man is there
+A man is a person
+These are men
+Those are men
+They are men
+The men are here
+The men are there
+Men are people
+This is a boy
+That is a boy
+There is a boy
+Here is a boy
+The boy is here
+The boy is there
+A boy is a person
+These are boys
+Those are boys
+They are boys
+The boys are here
+The boys are there
+Boys are people
+This is a brother
+That is a brother
+There is a brother
+Here is a brother
+The brother is here
+The brother is there
+A brother is a person
+These are brothers
+Those are brothers
+They are brothers
+The brothers are here
+The brothers are there
+Brothers are people
+He is here
+He is there
+Here he is
+There he is
+He is a person
+It is him
+This is him
+That is him
+This is his
+That is his
+There is his
+Here is his
+It is his
+His is there
+His is here
+This is a son
+That is a son
+There is a son
+Here is a son
+The son is here
+The son is there
+A son is a person
+These are sons
+Those are sons
+They are sons
+The sons are here
+The sons are there
+Sons are people

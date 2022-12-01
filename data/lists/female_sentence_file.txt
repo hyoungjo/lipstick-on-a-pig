@@ -1,0 +1,80 @@
+This is a female
+That is a female
+There is a female
+Here is a female
+The female is here
+The female is there
+A female is a person
+These are females
+Those are females
+They are females
+The females are here
+The females are there
+Females are people
+This is a woman
+That is a woman
+There is a woman
+Here is a woman
+The woman is here
+The woman is there
+A woman is a person
+These are women
+Those are women
+They are women
+The women are here
+The women are there
+Women are people
+This is a girl
+That is a girl
+There is a girl
+Here is a girl
+The girl is here
+The girl is there
+A girl is a person
+These are girls
+Those are girls
+They are girls
+The girls are here
+The girls are there
+Girls are people
+This is a sister
+That is a sister
+There is a sister
+Here is a sister
+The sister is here
+The sister is there
+A sister is a person
+These are sisters
+Those are sisters
+They are sisters
+The sisters are here
+The sisters are there
+Sisters are people
+She is here
+She is there
+Here she is
+There she is
+She is a person
+It is her
+This is her
+That is her
+This is hers
+That is hers
+There is hers
+Here is hers
+It is hers
+Hers is there
+Hers is here
+This is a daughter
+That is a daughter
+There is a daughter
+Here is a daughter
+The daughter is here
+The daughter is there
+A daughter is a person
+These are daughters
+Those are daughters
+They are daughters
+The daughters are here
+The daughters are there
+Daughters are people
