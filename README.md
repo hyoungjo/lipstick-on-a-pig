@@ -82,6 +82,52 @@ The experiments were applied to three debiased models: [Sent-Debiased](https://a
 - [Presentation](https://www.youtube.com/watch?v=3-ZAgVxtclM&list=PL-nWDVwiX2BcCnME6oy0OLumYlkFFXr0-)
 - [Slides](https://docs.google.com/presentation/d/19HI123JeJn0smyjredlQucBH6oGA-3mZXNgzlN6i1O0)
 
+## Development
+
+Please refer to [https://github.com/gonenhila/gender_bias_lipstick](https://github.com/gonenhila/gender_bias_lipstick) for the code and data of the original project.
+
+### Folder Structure
+
+```
+lipstick-on-a-pig
+├── README.md
+├── LICENSE
+├── .gitignore
+├── archive
+├── data - original, extracted embeddings
+│   ├── embeddings
+│   ├── lists
+│   └── extracted
+├── results - images
+├── source
+│   ├── remaining_bias_2016.ipynb
+│   ├── remaining_bias_2018.ipynb
+│   ├── compute_bert_sentence.ipynb
+│   ├── compute_debiased_sentence.ipynb
+│   └── experiments.ipynb
+├── assets
+└── docs
+```
+
+> Archive stores different experiments: retaining 2500 words from original paper (should only retain whole restricted vocabulary), sentence consisting of only one word (`compute_bert_word.ipynb`, `compute_debiased_word.ipynb`), extracting the average of entire sentence embedding without positional information, and more.
+
+### About the Code
+
+#### Execution Steps
+
+1. Process restricted vocabulary from `remaining_bias_2016.ipynb`, `remaining_bias_2018.ipynb`
+1. Compute BERT vocabulary and embeddings with `compute_bert_sentence.ipynb`
+1. Compute debiased embeddings with `compute_debiased_sentence.ipynb`
+1. Run `experiments.ipynb`
+
+#### Debiased Models
+
+Debiased models are acquired from github repositories:
+
+- Sent-Debiased - https://github.com/pliang279/sent_debias
+- Context-Debiased - https://github.com/kanekomasahiro/context-debias
+- Bert-CDS - https://github.com/marionbartl/gender-bias-BERT
+
 ## Collaborators
 
 > Sorted in Hangeul, Korean alphabetical order.
