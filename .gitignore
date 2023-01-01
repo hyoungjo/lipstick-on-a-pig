@@ -1,3 +1,6 @@
+# python
+.ipynb_checkpoints/
+
 # data
 *.zip
 *.vocab
@@ -6,10 +9,10 @@
 *.pkl
 *.bin
 
+# model
+debiased_models/
+
 # misc
 .DS_Store
 .vscode
 .env
-
-# model
-/debiased_models
