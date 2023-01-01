@@ -7,7 +7,7 @@ Revealing *systematic* gender biases in pre-trained BERT, and more importantly i
 
 [Lipstick on a Pig: Debiasing Methods Cover up Systematic Gender Biases in Word Embeddings But do not Remove Them](https://arxiv.org/pdf/1903.03862.pdf) shows that existing gender bias removal methods in word embeddings are superficial, and should not be trusted. Meanwhile, recent advances in contextual models have been astonishing, and many researchers have proved the existence of the biases and proposed different mitigation methods for those models. For this reason, we extend [Gonen and Goldberg (2019)](https://arxiv.org/pdf/1903.03862.pdf) to discover gender biases in contextualised language models. As a result, we have identified the presence of *systematic* gender biases in pre-trained BERT and also in debiased BERT models. We hope that our work will inspire future research on analyzing gender biases of diverse debiasing methods.
 
-For the entire piece, please refer to [Lipstick on a Pig “Again”: Analysis on Contextualised Embeddings]().
+For the entire piece, please refer to [Lipstick on a Pig “Again”: Analysis on Contextualised Embeddings](./docs/Lipstick%20on%20a%20Pig%20%E2%80%9CAgain%E2%80%9D%20-%20Analysis%20on%20Contextualised%20Embeddings.pdf).
 
 ## About the Project
 
@@ -78,7 +78,7 @@ The experiments were applied to three debiased models: [Sent-Debiased](https://a
 
 ### Paper and Presentation
 
-- [Lipstick on a Pig “Again”: Analysis on Contextualised Embeddings]()
+- [Lipstick on a Pig “Again”: Analysis on Contextualised Embeddings](./docs/Lipstick%20on%20a%20Pig%20%E2%80%9CAgain%E2%80%9D%20-%20Analysis%20on%20Contextualised%20Embeddings.pdf)
 - [Presentation](https://www.youtube.com/watch?v=3-ZAgVxtclM&list=PL-nWDVwiX2BcCnME6oy0OLumYlkFFXr0-)
 - [Slides](https://docs.google.com/presentation/d/19HI123JeJn0smyjredlQucBH6oGA-3mZXNgzlN6i1O0)
 
