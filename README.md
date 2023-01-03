@@ -28,8 +28,10 @@ Our approach tackles next two research questions:
 
 ### Data and Experiments
 
-To argue successful replication in contextualised environment, word pools used in the original paper are retained. Then, templates from [May et al. (2019)](https://arxiv.org/pdf/1903.10561.pdf) were adopted to build the words into sentences. For a proper application, words other than nouns are filtered out, yielding 18,445 and 39,385 words respectively. 
+To argue successful replication in contextualised environment, word pools used in the original paper are retained (initially from Word2Vec ([Bolukbasi et al., 2016](https://proceedings.neurips.cc/paper/2016/file/a486cd07e4ac3d270571622f4f316ec5-Paper.pdf)), GloVe ([Zhao et al., 2018](https://arxiv.org/pdf/1809.01496.pdf))). Then, templates from [May et al. (2019)](https://arxiv.org/pdf/1903.10561.pdf) were adopted to build the words into sentences. For a proper application, words other than nouns are filtered out, yielding 18,445 and 39,385 words respectively. 
 
+> Bolukbasi et al., 2016. [Man is to Computer Programmer as Woman is to Homemaker? Debiasing Word Embeddings](https://arxiv.org/abs/1607.06520) (NeurIPS 2022)  
+> Zhao et al., 2018. [Learning Gender-Neutral Word Embeddings](https://aclanthology.org/D18-1521) (EMNLP 2018)  
 > May et al., (2019). [On Measuring Social Biases in Sentence Encoders](https://arxiv.org/abs/1903.10561) (NACCL 2019)
 
 Next, `first` + `last` technique (e.g. `babysitter => ‘baby’ + ‘##sit’ + ‘##ter’`) was used for pooling chosen from [Ács et al. (2021)](https://www.researchgate.net/publication/349520093_Subword_Pooling_Makes_a_Difference) and last four hidden layers of BERT were concated to best preserve contextual information ([Devlin et al., 2018](https://arxiv.org/pdf/1810.04805.pdf)). 
@@ -59,13 +61,25 @@ The experiments were applied to three debiased models: [Sent-Debiased](https://a
 
 ![clustering_bert.png](./assets/clustering_bert.png)
 
+Figure 1. *Clustering for contextualised BERT embeddings, Word2Vec (left-hand side) and GloVe (right-hand side).*
+
 ![clustering_debiased.png](./assets/clustering_debiased.png)
+
+Figure 2. *Clustering for Debiased Models (Sent-Debiased, Context-Debiased, BERT-CDS) embeddings from the top. The same words are used as in BERT.*
+
+The embeddings from debiased models still clusters.
 
 #### Experiment 2: Professions
 
 ![professions_bert.png](./assets/professions_bert.png)
 
+Figure 3. *The plot for contextualised BERT embeddings, Word2Vec (left-hand side) and GloVe (right-hand side)*
+
 ![professions_debiased.png](./assets/professions_debiased.png)
+
+Figure 4. *The plot for Debiased Models (Sent-Debiased, Context-Debiased, BERT-CDS) embeddings from the top. The same words are used as in BERT.*
+
+Either male- or female-bias observed. More discussed in the [paper](./docs/Lipstick%20on%20a%20Pig%20%E2%80%9CAgain%E2%80%9D%20-%20Analysis%20on%20Contextualised%20Embeddings.pdf).
 
 #### Experiment 3: Classifying previously female- and male-biased words
 
@@ -75,6 +89,8 @@ The experiments were applied to three debiased models: [Sent-Debiased](https://a
 | Sent-Debiased    | 98.7%    | 100%         |
 | Context-Debiased | 94.2%    | 98.5%        |
 | BERT-CDS         | 96.8%    | 98.8%        |
+
+Classifier still can learn to distinguish male- and female-biased embeddings.
 
 ### Paper and Presentation
 
