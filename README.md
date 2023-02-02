@@ -32,7 +32,7 @@ Our approach tackles next two research questions:
 
 To design a solid experiment in contextualised settings, word pools used in the original paper are retained, as a control variable (initially from Word2Vec ([Bolukbasi et al., 2016](https://proceedings.neurips.cc/paper/2016/file/a486cd07e4ac3d270571622f4f316ec5-Paper.pdf)), GloVe ([Zhao et al., 2018](https://arxiv.org/pdf/1809.01496.pdf))). Then, templates from [May et al. (2019)](https://arxiv.org/pdf/1903.10561.pdf) were adopted to build the words into sentences. For a proper application of the templates, words other than nouns are filtered out, yielding 18,445 and 39,385 words respectively. 
 
-> Bolukbasi et al., 2016. [Man is to Computer Programmer as Woman is to Homemaker? Debiasing Word Embeddings](https://arxiv.org/abs/1607.06520) (NeurIPS 2022)  
+> Bolukbasi et al., 2016. [Man is to Computer Programmer as Woman is to Homemaker? Debiasing Word Embeddings](https://arxiv.org/abs/1607.06520) (NeurIPS 2016)  
 > Zhao et al., 2018. [Learning Gender-Neutral Word Embeddings](https://aclanthology.org/D18-1521) (EMNLP 2018)  
 > May et al., (2019). [On Measuring Social Biases in Sentence Encoders](https://arxiv.org/abs/1903.10561) (NACCL 2019)
 
